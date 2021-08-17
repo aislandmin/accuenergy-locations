@@ -1,0 +1,28 @@
+.location-acquire-container {
+  :global {
+    .location-acquire {
+      max-width: 1150px;
+      margin: 0 auto;
+
+      .location-acquire-btn {
+        margin: 30px 0;
+      }
+      .location-acquire-input {
+        .location-acquire-input-error {
+          margin-top: 5px;
+        }
+      }
+      .location-acquire-input-error {
+        border: 1px solid red;
+        padding-left: 15px;
+        height: 25px;
+        color: red;
+      }
+      .location-acquire-result {
+        margin: 15px auto;
+        padding: 10px;
+        background: #ececec;
+      }
+    }
+  }
+}
